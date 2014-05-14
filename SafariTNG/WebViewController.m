@@ -42,7 +42,7 @@
 {
 
     UIAlertView *alert = [[UIAlertView alloc] init];
-    alert.title = @"loading failed :(";
+    alert.title = @"loading failed :-(";
     alert.message = error.localizedDescription;
     [alert addButtonWithTitle:@"that sucks for you"];
     [alert addButtonWithTitle:@"go home"];
