@@ -14,7 +14,7 @@
 		71236ECB1923C7000042F051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71236ECA1923C7000042F051 /* main.m */; };
 		71236ECF1923C7000042F051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71236ECE1923C7000042F051 /* AppDelegate.m */; };
 		71236ED21923C7000042F051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71236ED01923C7000042F051 /* Main.storyboard */; };
-		71236ED51923C7000042F051 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71236ED41923C7000042F051 /* ViewController.m */; };
+		71236ED51923C7000042F051 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71236ED41923C7000042F051 /* WebViewController.m */; };
 		71236ED71923C7000042F051 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71236ED61923C7000042F051 /* Images.xcassets */; };
 		71236EDE1923C7000042F051 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71236EDD1923C7000042F051 /* XCTest.framework */; };
 		71236EDF1923C7000042F051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71236EBE1923C7000042F051 /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		71236ECD1923C7000042F051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71236ECE1923C7000042F051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		71236ED11923C7000042F051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		71236ED31923C7000042F051 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		71236ED41923C7000042F051 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71236ED31923C7000042F051 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		71236ED41923C7000042F051 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		71236ED61923C7000042F051 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		71236EDC1923C7000042F051 /* SafariTNGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariTNGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71236EDD1923C7000042F051 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				71236ECD1923C7000042F051 /* AppDelegate.h */,
 				71236ECE1923C7000042F051 /* AppDelegate.m */,
 				71236ED01923C7000042F051 /* Main.storyboard */,
-				71236ED31923C7000042F051 /* ViewController.h */,
-				71236ED41923C7000042F051 /* ViewController.m */,
+				71236ED31923C7000042F051 /* WebViewController.h */,
+				71236ED41923C7000042F051 /* WebViewController.m */,
 				71236ED61923C7000042F051 /* Images.xcassets */,
 				71236EC51923C7000042F051 /* Supporting Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71236ED51923C7000042F051 /* ViewController.m in Sources */,
+				71236ED51923C7000042F051 /* WebViewController.m in Sources */,
 				71236ECF1923C7000042F051 /* AppDelegate.m in Sources */,
 				71236ECB1923C7000042F051 /* main.m in Sources */,
 			);
